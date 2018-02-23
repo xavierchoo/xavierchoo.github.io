@@ -1,0 +1,147 @@
+body {
+  font-family: Arial;
+  line-height: 1.4em;
+  background-image: url("images/gallery/ground.jpg");
+  height: 100vh;
+  width: 100vw;
+}
+
+#body {
+  font-family: Arial;
+  line-height: 1.4em;
+  background-image: url("images/gallery/demo.png");
+  height: 100vh;
+  width: 100vw;
+}
+article {
+  max-width: 700px;
+  margin: 0 0 auto;
+}
+
+section {
+	display: block
+	width:100px;
+}
+.box{
+
+	width: 150px;
+	height: 150px;
+	border: solid 9px green;
+	background-color: red;
+	color: white;
+
+}
+.font {
+	font-size: 50px;
+}
+
+.block {
+	display: inline;
+}
+.float {
+	float: left;
+}
+.relative {
+	position: static;
+	margin 0;
+}
+.absolute {
+	position: absolute;
+	border: solid 1px lightgrey;
+}
+
+.firstsection {
+	  border-image: url("images/gallery/screw.jpg");
+  background-image: url("images/gallery/brick.jpg");	
+	box-sizing: border-box;
+	padding-bottom: 100px;
+	font-size: 20px;
+	content-right: 100px;
+	font-family: Elephant;
+}
+
+.secondsection {
+	border: solid 9px lightblue;
+  background-image: url("images/gallery/brick.jpg");
+	color: black;
+	box-sizing: border-box;
+	padding-bottom: 100px;
+	font-size: 20px;
+	content-right: 100px;
+	font-family: Elephant;
+}
+
+.thirdsection {
+	border: solid 9px lightblue;
+  background-image: url("images/gallery/brick.jpg");
+	color: black;
+	box-sizing: border-box;
+	padding-bottom: 120px;
+	font-size: 20px;
+	content-right: 100px;
+	font-family: Elephant;
+}
+/*this is for basic article first heading*/
+.containerfirst {
+
+	background: black;
+	left: 0;
+	right:0;
+	color: white;
+	padding: 10px;
+	margin: 0;
+	border: 0;
+	border: 5px solid blue;
+}
+.sectionfirst {
+	background: lightblue;
+	left: 0;
+	right:0;
+	color: black;
+	padding: 10px;
+	margin: 0;
+	border: 0;
+	border: 5px solid blue;
+	font-family: Elephant;
+}
+
+.button {
+	background-color: lightblue;
+	color: black;
+	padding: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-bottom: 2px solid orangered;
+	border-right: 2px solid orangered;
+	transition: all 1s;
+	display: inline-block;
+}
+
+.button:hover {
+	background-color: blue;
+	color: white;
+	border-color: lightblue;
+	transform: translate(0px, -20px);
+}
+.floatr {
+	float: right;
+}
+.entertain {
+	font-size:80%;
+	  background-image: url("images/gallery/entertain.jpg");
+	left: 0;
+	right:0;
+	content: 0;
+	color: white;
+	padding: 0px;
+	margin: 0;
+	border: 0;
+	border: 5px solid blue;
+
+}
+nav li {
+	display: inline-block;
+}
+.gif {
+	background: url("images/gallery/turning.gif") no-repeat center center;
+}
