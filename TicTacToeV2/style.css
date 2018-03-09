@@ -1,0 +1,39 @@
+body{
+	background-color: grey;
+
+}
+.block{
+	position: relative;
+	display: block;
+}
+.inlineBlock{
+	position: relative;
+	display: inline-block;
+	border: solid 5px cadetblue;
+	height: 20vh;
+	width:20vh;
+	box-sizing: border-box;
+}
+.boxesAll{
+	display: flex;
+	flex-wrap: wrap;
+	height: 60vh;
+	width: 60vh;
+	justify-content: center;
+	align-items: center;
+}
+#firstRow{
+
+}
+#secondRow{
+
+}
+#thirdRow{
+
+}
+.player{
+	background-color: blue;
+}
+.bot{
+	background-color: red;
+}
